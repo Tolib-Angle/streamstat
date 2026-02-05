@@ -1,19 +1,118 @@
-CMakeLists.txt.user
-CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
-Makefile
-cmake_install.cmake
-install_manifest.txt
-compile_commands.json
-CTestTestfile.cmake
-_deps
-CMakeUserPresets.json
+###############################################################################
+# OS
+###############################################################################
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
 
-# CLion
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#cmake-build-*
+###############################################################################
+# Visual Studio (IDE)
+###############################################################################
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS (IntelliSense / browsing)
+*.VC.db
+*.VC.VC.opendb
+ipch/
+
+# VS local workspace
+.vscode/
+.idea/
+
+###############################################################################
+# Visual Studio Build Outputs (classic MSBuild layouts)
+###############################################################################
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+
+# Intermediate / build artifacts
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.pch
+*.ipdb
+*.iobj
+*.exp
+*.lib
+*.dll
+*.exe
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+
+# Logs / temp
+*.log
+*.tlog
+*.lastbuildstate
+
+###############################################################################
+# CMake (Visual Studio / Ninja / others)
+###############################################################################
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+_install/
+
+# Common CMake build directories
+build/
+build*/
+cmake-build-*/
+out/
+out*/
+
+# CMake Tools for Visual Studio / CMakePresets user local
+CMakeSettings.json
+CMakeUserPresets.json
+CMakePresets.json.user
+
+# Compilation database
+compile_commands.json
+
+###############################################################################
+# Ninja
+###############################################################################
+*.ninja
+*.ninja_deps
+*.ninja_log
+
+###############################################################################
+# clang-tools
+###############################################################################
+.cache/
+.clangd/
+
+###############################################################################
+# Runtime / app outputs (по желанию)
+###############################################################################
+output/
+results/
+*.tmp
+
+###############################################################################
+# Packaging / archives
+###############################################################################
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+
+###############################################################################
+# (Optional) If you ever generate solution files
+###############################################################################
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user

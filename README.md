@@ -1,2 +1,13 @@
 # streamstat
-streamstat is a C++23 command-line tool for streaming statistical processing of CSV files. It scans directories, filters input files, merges records by event timestamp, and computes the median incrementally. Output is written only when the median changes. The architecture is modular and extensible for new statistics and data sources.
+
+streamstat is a C++23 command-line tool for streaming statistical processing of CSV files.
+It merges records by event timestamp and computes the median incrementally, writing output
+only when the median changes.
+
+## Build
+
+```bash
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+cmake --build build
+```
+
